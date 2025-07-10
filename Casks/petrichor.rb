@@ -26,7 +26,12 @@ cask "petrichor" do
     Petrichor is currently in alpha. Expect bugs and breaking changes.
     
     #{token} is not signed with an Apple Developer certificate.
-    You will need to right-click or Control-click the app and select "Open"
-    the first time you launch it.
+    
+    To open for the first time:
+    1. Right-click the app and select "Open"
+    2. Click "Open" in the dialog
+    
+    If you see "Petrichor cannot be opened" error:
+      xattr -dr com.apple.quarantine /Applications/Petrichor.app
   EOS
 end

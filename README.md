@@ -24,6 +24,14 @@ An offline macOS music player
 brew install --cask petrichor
 ```
 
+Since Petrichor isn't notarized, macOS Gatekeeper may block it. Here's how to open it:
+
+1. Right-click the app and select "Open"
+2. **If that fails**, run this command in Terminal:
+   ```bash
+   xattr -dr com.apple.quarantine /Applications/Petrichor.app
+   ```
+
 #### Updating
 
 To update apps installed from this tap:

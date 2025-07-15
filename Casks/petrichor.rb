@@ -1,10 +1,10 @@
 cask "petrichor" do
-  version "1.0.0-alpha-4"
-  sha256 "b6ca0981204a1002816a98073aebdeac144dd51abcc6360bea3f2328c777ca04"
+  version "1.0.0-beta-1"
+  sha256 "50324d721d6557ef8105b2e0229917fa4105f60d44b48242bb8ca69f4885afb9"
 
   url "https://github.com/kushalpandya/Petrichor/releases/download/v#{version}/Petrichor-#{version}-Universal.dmg"
   name "Petrichor"
-  desc "Native macOS music player with folder-based library management"
+  desc "An offline macOS music player"
   homepage "https://github.com/kushalpandya/Petrichor"
 
   livecheck do
@@ -23,7 +23,7 @@ cask "petrichor" do
   ]
 
   caveats <<~EOS
-    Petrichor is currently in alpha. Expect bugs and breaking changes.
+    Petrichor is currently in beta. Expect bugs and breaking changes.
     
     #{token} is not signed with an Apple Developer certificate.
     

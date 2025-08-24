@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Petrichor Test Updates</title>
+    <description>Test updates for Petrichor</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.0.0</title>
+      <pubDate>Sat, 23 Aug 2025 12:00:00 -0400</pubDate>
+      <sparkle:version>100</sparkle:version>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/kushalpandya/homebrew-tap/releases/download/v1.0.0/Petrichor-1.0.0-beta-4-Universal.dmg" sparkle:edSignature="di0ryZ/b/hL4N4d3/EKG8JsJftLCrL0e/6d2m61csG0E/ayw45wNRkcRUkzLMXOGeTfgxgYq/mXJfisuOwsdAg==" length="9435475" type="application/octet-stream" />
+      <description><![CDATA[
+                <h2>Test Release</h2>
+                <p>Testing Sparkle auto-update functionality</p>
+            ]]>      </description>
+    </item>
+  </channel>
+</rss>

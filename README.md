@@ -15,22 +15,14 @@ brew tap kushalpandya/tap
 
 An offline macOS music player
 
-- **Version**: 1.0.0-alpha-3
-- **Status**: Alpha
+- **Version**: 1.0.0
+- **Status**: Stable
 
 #### Installation
 
 ```bash
 brew install --cask petrichor
 ```
-
-Since Petrichor isn't notarized, macOS Gatekeeper may block it. Here's how to open it:
-
-1. Right-click the app and select "Open"
-2. **If that fails**, run this command in Terminal:
-   ```bash
-   xattr -dr com.apple.quarantine /Applications/Petrichor.app
-   ```
 
 #### Updating
 
@@ -52,12 +44,6 @@ brew uninstall --cask petrichor
 # Remove app and all its data
 brew uninstall --cask --zap petrichor
 ```
-
-## Troubleshooting
-
-If you encounter the "app is damaged" error with any of the installed apps,
-it's because the app isn't notarized. Right-click the app and select "Open"
-to bypass Gatekeeper.
 
 ## License
 
